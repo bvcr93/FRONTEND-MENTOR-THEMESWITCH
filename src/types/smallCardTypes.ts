@@ -16,7 +16,7 @@ export const smallCards: SmallCard[] = [
     title: "Page Views",
     icon:  face ,
     views: 87,
-    percent: 2257,
+    percent: 3,
     id: 1,
   },
   {
