@@ -3,7 +3,7 @@ import face from "../img/face.svg";
 import twit from "../img/twit.svg";
 import you from "../img/you.svg";
 
-export type SmallCard = {
+ type SmallCard = {
   title: string;
   icon: string;
   views: number;
@@ -24,48 +24,48 @@ export const smallCards: SmallCard[] = [
     icon:  twit ,
     views: 87,
     percent: 2257,
-    id: 1,
+    id: 2,
   },
   {
     title: "Page Views",
     icon:  twit ,
     views: 87,
     percent: 2257,
-    id: 1,
+    id: 3,
   },
   {
     title: "Page Views",
     icon:  you ,
     views: 87,
     percent: 2257,
-    id: 1,
+    id: 4,
   },
   {
     title: "Page Views",
     icon:  insta ,
     views: 87,
     percent: 2257,
-    id: 1,
+    id: 5,
   },
   {
     title: "Page Views",
     icon:  face ,
     views: 87,
     percent: 2257,
-    id: 1,
+    id: 6,
   },
   {
     title: "Page Views",
     icon:  face ,
     views: 87,
     percent: 2257,
-    id: 1,
+    id: 7,
   },
   {
     title: "Page Views",
     icon:  face ,
     views: 87,
     percent: 2257,
-    id: 1,
+    id: 8,
   },
 ];

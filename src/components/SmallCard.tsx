@@ -1,20 +1,13 @@
-import React from "react";
+import React from 'react'
 
 type Props = {
-  id: number;
-  percent: number;
-  views: number;
-  icon: string;
-  title: string;
-};
+  title: string
+}
 
-const SmallCard = ({ id, percent, views, icon, title }: Props) => {
+const SmallCard = ({title}: Props) => {
   return (
-    <div className=" ">
-{title}
-{views}
-    </div>
-  );
-};
+    <div className='h-[200px] w-[300px] bg-slate-300 m-4'>{title}</div>
+  )
+}
 
-export default SmallCard;
+export default SmallCard
