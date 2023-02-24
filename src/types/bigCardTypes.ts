@@ -23,7 +23,7 @@ export const bigCards: BigCardType[] = [
     folowers: 1987,
     today: 12,
     flOrSub: "subscribers",
-    navColor: "bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 absolute top-0 w-full h-[5px]",
+    navColor: "bg-blue-500 absolute top-0 w-full h-[5px]",
   folowerColor: "text-green-500"
   },
   { id: 2,
@@ -32,7 +32,7 @@ export const bigCards: BigCardType[] = [
     folowers: 1044,
     today: 99,
     flOrSub: "subscribers",
-    navColor: "bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 absolute top-0 w-full h-[5px]",
+    navColor: "bg-blue-500  absolute top-0 w-full h-[5px]",
     folowerColor: "text-green-500"
   }
   ,
@@ -42,7 +42,7 @@ export const bigCards: BigCardType[] = [
     folowers: 11,
     today: 1099,
     flOrSub: "subscribers",
-    navColor: "bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 absolute top-0 w-full h-[5px]",
+    navColor: "bg-gradient-to-r from-yellow-500 via-purple-500 to-pink-400 absolute top-0 w-full h-[5px]",
     folowerColor: "text-green-500"
   },
   { id: 4,
@@ -51,7 +51,7 @@ export const bigCards: BigCardType[] = [
     folowers: 8239,
     today: 144,
     flOrSub: "subscribers",
-    navColor: "bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 absolute top-0 w-full h-[5px]",
+    navColor: "bg-red-700 absolute top-0 w-full h-[5px]",
     folowerColor: "text-red-500"
   },
 ];

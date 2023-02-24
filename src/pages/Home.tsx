@@ -10,7 +10,7 @@ const Home = (props: Props) => {
 
   const { theme } = useTheme()
   return (
-    <div className={`md:h-screen grid grid-cols-1  h-full ${!theme ?"bg-slate-50" : "bg-slate-800" } `}>
+    <div className={`md:h-full grid grid-cols-1  h-full ${!theme ?"bg-slate-50" : "bg-slate-800" } `}>
     <div className={`h-[300px] ${!theme ? "bg-slate-100 " : "bg-slate-700"} md:mt-0 mt-[200px]`}>
 
       <Nav />
