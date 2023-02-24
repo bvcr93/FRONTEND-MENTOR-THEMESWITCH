@@ -1,5 +1,6 @@
 import { useTheme } from "../context/ThemeContext";
 import React from "react";
+import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
 
 type Props = {
   title: string;
@@ -25,7 +26,11 @@ const SmallCard = ({ title, icon, percent, views }: Props) => {
       </nav>
       <div className="flex justify-around w-full mb-10">
         <p>{views}</p>
+        <div className="flex">
+        <ArrowDropUpIcon className="text-green-500"/>
         <p className="text-green-400">{percent}%</p>
+      
+        </div>
       </div>
     </div>
   );
