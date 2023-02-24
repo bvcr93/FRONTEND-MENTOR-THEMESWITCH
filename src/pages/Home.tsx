@@ -16,7 +16,7 @@ const Home = (props: Props) => {
       <BigCards />
     </div>
 <div className='mt-[200px]'>
- <nav className='w-[60%] mx-auto text-2xl text-slate-500 '>Overview-Today</nav>
+ <nav className='w-[63.5%] mx-auto text-2xl text-slate-500  '>Overview-Today</nav>
   <SmallCards/>
 </div>
   </div>

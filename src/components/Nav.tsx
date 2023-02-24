@@ -1,27 +1,39 @@
-import React from 'react'
-import { useTheme } from '../context/ThemeContext'
-import Switch from '@mui/material/Switch';
-
-
+import React from "react";
+import { useTheme } from "../context/ThemeContext";
+import Switch from "@mui/material/Switch";
 
 const Nav = () => {
-  const { switchTheme, theme } = useTheme()
-  const label = { inputProps: { 'aria-label': 'Switch demo' } };
-  
+  const { switchTheme, theme } = useTheme();
+  const label = { inputProps: { "aria-label": "Switch demo" } };
 
   return (
-    <div className={`flex justify-between w-[68.5%] mx-auto absolute right-[270px] top-[60px] ${theme ? 'bg-slate-700' : 'bg-gray-100'}`}>
+    <div
+      className={`flex justify-between w-[67.7%] mx-auto absolute right-[270px] top-[60px] ${
+        theme ? "bg-slate-700" : "bg-gray-100"
+      }`}
+    >
       <div>
-        <p className={`text-2xl font-bold tracking-wide ${theme ? 'text-white' : 'text-gray-800'}`}>Social Media Dashboard</p>
-        <p className={`text-gray-600 ${theme ? 'text-white' : 'text-gray-800'}`}>Total followers: 23,004</p>
+        <p
+          className={`text-2xl font-bold tracking-wide ${
+            theme ? "text-white" : "text-gray-800"
+          }`}
+        >
+          Social Media Dashboard
+        </p>
+        <p
+          className={`text-gray-600 ${theme ? "text-white" : "text-gray-800"}`}
+        >
+          Total followers: 23,004
+        </p>
       </div>
-      <div onClick={() => switchTheme()} className="flex items-center">
-       <p className={`${theme ? "text-slate-200" : "text-slate-600"}`}>Dark Mode</p>
+      <div onClick={() => switchTheme()} className="flex items-center mr-[65px]">
+        <p className={`${theme ? "text-slate-200" : "text-slate-600"}`}>
+          {!theme ? "Dark Mode" : "Light Mode"}
+        </p>
         <Switch />
-  
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;

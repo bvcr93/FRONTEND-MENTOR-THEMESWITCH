@@ -6,7 +6,10 @@ type Props = {}
 
 const BigCards = (props: Props) => {
   return (
-    <div className='flex p-20 items-center justify-center  mx-auto  '>
+    <div className='md:flex p-20 
+    items-center
+     justify-center 
+    mx-auto grid grid-cols-1  '>
 
       {bigCards.map((card, index) =>
       <BigCard key={index} {...card}/>
